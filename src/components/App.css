@@ -1,0 +1,37 @@
+body{
+    background-color: #333;
+}
+
+.app_head {
+    text-align: center;
+    font-family: sans-serif;
+    color: #eaeaea;
+    font-weight: 500;
+}
+
+.question{
+    font-family: sans-serif;
+    color: #fff;
+    text-align:center;
+}
+
+.answer_container{
+    text-align: center;
+
+}
+
+.answer_container .ans_btn {
+    background-color: dodgerblue;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.score_area{
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}

@@ -10,11 +10,9 @@ const QuizArea = (props) => {
     }
 
     return(
-        <div>Quiz Area
+        <div>
          <Question dataSet={props.dataSet}/>
-         <Answerlist dataSet={props.dataSet}/>
-
-
+         <Answerlist handleClick={props.handleClick} dataSet={props.dataSet}/>
         </div>
     )
 }

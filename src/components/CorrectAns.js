@@ -1,8 +1,10 @@
 import React from "react";
 
-const CorrectAns = () => {
+const CorrectAns = (props) => {
     return(
-        <div>correct</div>
+        <div>
+            <h3>Correct Answers: {props.correct}</h3>
+        </div>
     )
 }
 

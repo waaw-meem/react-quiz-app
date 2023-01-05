@@ -6,11 +6,12 @@ import Questionaire from './Questionaire';
 // import QuizArea from './QuizArea';
 // import ScoreArea from './ScoreArea';
 // import UserGreet from "./UserGreet";
+import "./App.css"
 
 const App = () => {
     return(
         <div>
-            <h1>Javascript Quiz</h1>
+            <h1 className='app_head'>Javascript Quiz</h1>
             <Questionaire />
         </div>
     )

@@ -3,12 +3,12 @@ import CorrectAns from "./CorrectAns"
 import IncorrectAns from "./IncorrectAns"
 
 
-const ScoreArea = () => {
+const ScoreArea = (props) => {
     return(
-        <div>
+        <div className="score_area">
             <h2>Score Area</h2>
-            <CorrectAns />
-            <IncorrectAns />
+            <CorrectAns correct={props.correct}/>
+            <IncorrectAns incorrect={props.incorrect}/>
         </div>
     )
 }
